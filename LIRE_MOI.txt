@@ -17,5 +17,5 @@ Aucune installation nécessaire. Les polices Google utilisent Internet.
 La checklist est enregistrée sur le navigateur de chaque appareil.
 Les pages utilisent des liens relatifs : conserver les fichiers ensemble.
 
-Version fonctionnelle actuellement publiée. Les ajouts de nouvelles photos
-et d’icônes Lucide interrompus lors de la précédente tentative ne sont pas inclus.
+Photos réelles ajoutées dans assets. Crédits : PHOTOS.md.
+

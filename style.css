@@ -34,3 +34,14 @@
  .bubble{right:max(16px,env(safe-area-inset-right));bottom:max(16px,env(safe-area-inset-bottom))}
  .bubble-tip{display:none}
 }
+
+/* Photos de la Cité de l’Espace. */
+.hero-photo{display:block;width:100%;aspect-ratio:1.12;height:auto;object-fit:cover;object-position:72% center;border-radius:130px 130px 24px 24px;max-height:530px}
+.hero-art{width:100%}.hero-art .art-label{bottom:24px;left:-8px}
+.mars-art{position:relative;border-radius:15px;overflow:hidden}.mars-art img{display:block;width:100%;height:auto;aspect-ratio:1.5;object-fit:cover}
+.image-caption{max-width:calc(100% - 24px);line-height:1.4;font-size:9px}
+.feature-photo{display:block;width:calc(100% + 64px);height:150px;object-fit:cover;margin:-32px -32px 25px;border-radius:13px 13px 0 0}
+.feature:has(.feature-photo){overflow:hidden}.feature:has(.feature-photo) h3{margin-top:12px}
+.photo-credits-link{flex-basis:100%;font-size:11px}.photo-credits-link a{text-decoration:underline}footer{flex-wrap:wrap}
+@media(max-width:900px){.feature-photo{width:calc(100% + 50px);margin:-25px -25px 22px}}
+@media(max-width:650px){.hero-photo{aspect-ratio:1.25;border-radius:90px 90px 18px 18px}.hero-art .art-label{left:6px;bottom:15px}.feature-photo{height:180px}.image-caption{font-size:10px}.mars-art{max-width:none}.photo-credits-link{margin:0}.feature:has(.feature-photo){padding-bottom:40px}}
