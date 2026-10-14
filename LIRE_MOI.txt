@@ -1,0 +1,21 @@
+CAP ESPACE — CODE SOURCE
+
+Ouvrir le site
+1. Extraire complètement le ZIP.
+2. Ouvrir index.html dans un navigateur.
+
+Fichiers à modifier
+- index.html : accueil
+- planning.html : planning
+- lieux.html : activités et lieux
+- preparation.html : préparation et checklist
+- style.css : couleurs, mise en page et affichage mobile
+- app.js : menu, filtres, checklist et bulle Bubble Site
+- assets/ : photos
+
+Aucune installation nécessaire. Les polices Google utilisent Internet.
+La checklist est enregistrée sur le navigateur de chaque appareil.
+Les pages utilisent des liens relatifs : conserver les fichiers ensemble.
+
+Version fonctionnelle actuellement publiée. Les ajouts de nouvelles photos
+et d’icônes Lucide interrompus lors de la précédente tentative ne sont pas inclus.
